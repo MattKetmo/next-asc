@@ -1,9 +1,7 @@
-import { Compiler } from "./Compiler"
-
-export const dynamic = 'force-dynamic'
+import DynamicCompiler from "./DynamicCompiler";
 
 export default function Home() {
   return (
-    <Compiler />
+    <DynamicCompiler />
   )
 }
